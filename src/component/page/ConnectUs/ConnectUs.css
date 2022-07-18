@@ -21,6 +21,7 @@
 .connect-form{
     width: 50%;
 }
+
 .submit-btn{
     background-size: 200% auto;
     background-color: #33cfff;
@@ -54,5 +55,8 @@
 @media screen and (min-width: 777px) and (max-width: 996px) {
     .connect-form{
         width: 70%;
+    }
+    .form-group{
+        width: 100%;
     }
 }

@@ -9,7 +9,7 @@ const ConnectUs = () => {
         <div className="form-group mb-3">
           <input
             type="email"
-            className="form-control"
+            className="form-control field"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
             placeholder="Enter email"
@@ -18,7 +18,7 @@ const ConnectUs = () => {
         <div className="form-group mb-3">
           <input
             type="text"
-            className="form-control"
+            className="form-control field"
             id="exampleInputPassword1"
             placeholder="subject"
           />
