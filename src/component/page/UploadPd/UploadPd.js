@@ -14,7 +14,7 @@ const UploadPd = () => {
     const image = event.target.image.value;
     const description = event.target.description.value;
     const email = user.email;
-    const url = "http://localhost:5000/uploadPd";
+    const url = "https://arcane-peak-20935.herokuapp.com/uploadPd";
     fetch(url, {
       method: "POST",
       body: JSON.stringify({
@@ -89,7 +89,7 @@ const UploadPd = () => {
             <label htmlFor="inputCity">Product Description</label>
             <textarea
               name="description"
-              className="form-control w-100"
+              className="form-control textArea"
               id="exampleFormControlTextarea1"
               rows="3"
               placeholder="product description"

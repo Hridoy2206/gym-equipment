@@ -7,7 +7,7 @@ const ProductsItems = () => {
     const [products, setProducts] = useState([])
     const navigate = useNavigate()
     useEffect(()=>{
-        const url = "http://localhost:5000/products"
+        const url = "https://arcane-peak-20935.herokuapp.com/products"
         fetch(url)
         .then(res => res.json())
         .then(data => {

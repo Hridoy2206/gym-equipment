@@ -21,3 +21,15 @@
         width: 80%;
     }
 }
+@media screen and (min-width: 777px) and (max-width: 996px) {
+    .add-form{
+        width: 80%;
+    }
+    .form-group{
+        width: 250px;
+    }
+    .textArea{
+        width: 490px;
+        height: 120px;
+    }
+}

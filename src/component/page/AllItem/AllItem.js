@@ -10,7 +10,7 @@ const AllItem = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://arcane-peak-20935.herokuapp.com/products")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
@@ -21,7 +21,7 @@ const AllItem = () => {
   const handelDeleteItem = (id) => {
     const proceed = window.confirm("Are you sure YOU want to delete it?");
     if (proceed) {
-      const url = `http://localhost:5000/item/${id}`;
+      const url = `https://arcane-peak-20935.herokuapp.com/item/${id}`;
       fetch(url, {
         method: "DELETE",
       })

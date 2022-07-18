@@ -8,7 +8,7 @@ const MyItem = () => {
   const [user] = useAuthState(auth);
   console.log(user);
   useEffect(() => {
-    const url = `http://localhost:5000/myItem?email=${user.email}`;
+    const url = `https://arcane-peak-20935.herokuapp.com/myItem?email=${user.email}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
@@ -20,7 +20,7 @@ const MyItem = () => {
   const handelDeleteItem = (id) => {
     const proceed = window.confirm("Are you sure YOU want to delete it?");
     if (proceed) {
-      const url = `http://localhost:5000/item/${id}`;
+      const url = `https://arcane-peak-20935.herokuapp.com/item/${id}`;
       fetch(url, {
         method: "DELETE",
       })

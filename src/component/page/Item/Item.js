@@ -10,7 +10,7 @@ const Item = () => {
     const {productName, description, image, quantity, price, _id} = updateItem
 
     useEffect(()=>{
-        const url = `http://localhost:5000/item/${id}`
+        const url = `https://arcane-peak-20935.herokuapp.com/item/${id}`
         fetch(url)
         .then(res=>res.json())
         .then(data=>{
@@ -20,7 +20,7 @@ const Item = () => {
     },[])
 
     // useEffect(()=>{
-    //     const url = `http://localhost:5000/item/${id}`
+    //     const url = `https://arcane-peak-20935.herokuapp.com/item/${id}`
     //     fetch(url, {
     //         method: "PUT",
     //         body: JSON.stringify(),
