@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Link } from "react-router-dom";
 import auth from "../../../Firebase/Firebase.init";
-import image from "../../../image/images (1).png"
+import image from "../../../image/gymat_light-1.svg"
 
 import "./NavBer.css";
 
@@ -21,7 +21,7 @@ const NavBer = () => {
       <Navbar className="p-0"  collapseOnSelect expand="lg" style={{background:"#231955"}} variant="dark">
         <Container>
           <Navbar.Brand as={Link} to="/">
-            <img src={image} height={48} alt="" />
+            <img src={image} height={45} alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

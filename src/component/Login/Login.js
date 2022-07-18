@@ -1,5 +1,4 @@
 import React from "react";
-import { getAuth, signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import { useAuthState, useSendEmailVerification, useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import "./Login.css"
 import auth from "../../Firebase/Firebase.init";
