@@ -1,0 +1,25 @@
+.delivered-btn{
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    padding: 7px 15px ;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.delivered-btn:hover {
+    background-color: #444;
+    background-position: right center;
+}
+.input-field{
+    width: 50%;
+    height: 35px;
+    padding: 10px;
+}
+     
+.item-section{
+    background: rgb(245, 246, 246);
+    padding: 10%;
+}
+ 

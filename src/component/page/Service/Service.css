@@ -1,0 +1,122 @@
+#services {
+    background: rgb(245, 246, 246);
+    padding: 50px 0px;
+    margin: auto;
+    width: 100%;
+}
+
+.sBoxWrapper {
+    overflow: hidden;
+}
+
+.singleBox {
+    width: 275px;
+    text-align: center;
+    background: white;
+    /* margin: 25px -1px 25px 25px; */
+    margin: 25px 15px;
+    float: left;
+    transition: .3s;
+}
+
+.sBoxIcon {
+    font-size: 36px;
+    padding: 15px;
+    color: rgb(251, 82, 0);
+}
+
+.sBoxIconActive {
+    font-size: 36px;
+    padding: 15px;
+}
+
+.sBoxTitle h2 {
+    font-size: 25px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+}
+
+.sBoxTitle {
+    text-align: center;
+    margin: auto;
+    width: 222px;
+}
+
+.sBoxDisk p {
+    text-align: center;
+    width: 200px;
+    font-size: 15px;
+    line-height: 21px;
+    margin: auto;
+}
+
+.sBoxLink a {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(251, 82, 0);
+    margin: 30px 0px;
+}
+
+.sBoxLink a i {
+    font-size: 15px;
+    margin-left: 6px;
+    width: 15px;
+}
+
+.sBoxLink {
+    margin: 25px 0px;
+}
+
+.singleBox:hover {
+    background: rgb(251, 82, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.singleBox:hover .sBoxLink a {
+    color: white !important;
+}
+
+.singleBox:hover .sBoxIcon {
+    color: white;
+}
+
+.singleBox.active {
+    background: rgb(251, 82, 0);
+    color: white;
+}
+
+.singleBox:hover h2 {
+    color: white;
+}
+
+.singleBox.active h2 {
+    color: white;
+}
+
+.singleBox.active a {
+    color: white;
+}
+
+@media screen and (min-width: 577px) and (max-width: 776px) {
+    .singleBox {
+        width: 485px;
+        text-align: center;
+        background: white;
+        margin: 25px 15px;
+        float: left;
+        transition: .3s;
+    }
+}
+@media screen and (max-width: 576px) {
+    .singleBox {
+        width: 300px;
+        text-align: center;
+        background: white;
+        margin: 25px 15px;
+        margin-left: 25px;
+        float: left;
+        transition: .3s;
+    }
+}

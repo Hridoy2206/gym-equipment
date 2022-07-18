@@ -1,0 +1,17 @@
+.table-header tr th{
+    font-size: 18px;
+    font-weight: 700;
+    color: #555;
+}
+.table-header{
+    border-bottom: 2px solid #666;
+}
+.add-btn{
+    width: 25%;
+}
+
+@media screen and (max-width:576px) {
+    .add-btn{
+        width: 50%;
+    }
+}

@@ -1,0 +1,23 @@
+import { useAuthState, useSendEmailVerification } from "react-firebase-hooks/auth";
+import { Navigate, useLocation } from "react-router-dom";
+import auth from "./Firebase/Firebase.init"
+import Loading from "./Shared/Loading";
+
+function RequireAuth({ children }) {
+    const [user, loading] = useAuthState(auth)
+    
+    let location = useLocation();
+
+    if (loading) {
+      return <Loading></Loading>
+    }
+  
+    if (!user) {
+      return <Navigate to="/login" state={{ from: location }} replace />;
+    }
+    console.log(user);
+     
+  
+    return children;
+  }
+  export default RequireAuth

@@ -1,0 +1,102 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.form-label{
+    display: block;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: large;
+    font-weight: 500;
+    color: #666;
+}
+
+
+.login-form input{
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    width: 300px;
+}
+.login-title{
+    color: #666;
+
+}
+/* .login-btn{
+    width: 40%;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff5200;
+    color: white;
+    padding: 7px 15px;
+    transition: .3s;
+} */
+
+         
+.login-btn {
+    background-image: linear-gradient(to right, #3a325c 0%, #8b86a3  51%, #3a325c  100%);
+    margin: 15px 0px;
+    padding: 7px 50px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 20px;
+    border: none;
+  }
+
+  .login-btn:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+
+           
+  .btn-grad {
+    
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ 
+/* 
+.login-btn:hover{
+    background-color: #444;
+
+} */
+.sign-up-btn{
+    color: #FF0063;
+    font-size: large;
+    font-weight: 500;
+}
+.manage-register{
+    font-size: large;
+    font-weight: 500;
+    color: #666;
+}
+.google-btn{
+    width: 95%;
+    padding: 6px 0px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid gray;
+}
